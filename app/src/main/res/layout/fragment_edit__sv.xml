@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5sp"
+    tools:context=".Fragment.Edit_TT_SV_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewGTSV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tthotensv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/ttemailsv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginTop="10sp"
+            />
+
+        <TextView
+            android:id="@+id/ttkhoasv"
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/tttenkhoasv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginTop="10sp"
+            />
+        <TextView
+            android:id="@+id/ttmalopsv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginTop="10sp"
+            />
+
+        <TextView
+            android:id="@+id/ttgioitinhsv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginTop="10sp"
+
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/ttngaysinhsv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/ttquequansv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chinh sua sinh vien"
+            android:textAlignment="center"
+            android:textColor="#FF3300"
+            android:textSize="16dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10sp"
+
+            android:layout_below="@+id/textView3"
+            android:id="@+id/layout1">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ma khoa"
+                android:textColor="#CC99FF" />
+
+            <Spinner
+                android:id="@+id/spnmakhoa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#800080"
+                android:text="Name" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnchonkhoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_gravity="center"
+            android:text="Chon khoa" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10sp"
+            android:id="@id/layout2"
+            android:layout_below="@+id/layout1">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ma lop"
+                android:textColor="#CC99FF"/>
+
+            <Spinner
+                android:id="@+id/spnmalop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#800080"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10sp"
+            android:id="@+id/layout3"
+            android:layout_below="@+id/layout2">
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCapNhatGV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Cap nhat" />
+
+        <Button
+            android:id="@+id/btnBackDs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

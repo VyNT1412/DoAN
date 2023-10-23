@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:title="Danh sách giáo viên" android:icon="@drawable/baseline_format_list_bulleted_24" app:showAsAction="always" android:id="@+id/item_Gv"/>
+        <item android:title="Danh sách sinh viên" android:icon="@drawable/baseline_format_list_bulleted_24" app:showAsAction="always" android:id="@+id/item_SV"/>
+        <item android:title="Bảng điểm" android:icon="@drawable/baseline_fact_check_24" app:showAsAction="always" android:id="@+id/item_bangDiem"/>
+        <item android:title="Lịch thi" android:icon="@drawable/baseline_calendar_month_24" app:showAsAction="always" android:id="@+id/item_lichthi"/>
+        <item android:title="Thông tin tài khoản" android:icon="@drawable/baseline_account_box_24" app:showAsAction="always" android:id="@+id/item_infoAdmnin"/>
+        <item android:title="Đổi mật khẩu" android:icon="@drawable/baseline_vpn_key_24" app:showAsAction="always" android:id="@+id/item_doiMKAdmin"/>
+        <item android:title="Đăng xuất" android:icon="@drawable/baseline_output_24" app:showAsAction="always" android:id="@+id/item_dangXuatAdmin"/>
+
+    </group>
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="grey">#FF505152</color>
+    <color name="lightgrey">#FF656769</color>
+    <color name="h1">#FF2f82d4</color>
+    <color name="babyblue">#FF4f95db</color>
+    <color name="red">#F92A1B</color>
+    <color name="blue">#065081</color>
+
+    <!--    màu trong suốt-->
+    <color name="transparent">#00000000</color>
+</resources>

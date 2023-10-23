@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/n"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:padding="10dp"
+    tools:context=".Fragment.InforAdmin_Fragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/artifika"
+            android:gravity="center"
+            android:text="THÔNG TIN CÁ NHÂN"
+            android:textColor="#BF2828"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="2dp">
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:id="@+id/Sphoto"/>
+    </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Email Admin:"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="@color/lightgrey" />
+
+            <TextView
+                android:id="@+id/emailad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/artifika"
+                android:text=""
+                android:textColor="@color/lightgrey"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btnChuyenlistGV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Danh sách Giáo viên"
+                android:background="#5E3587"
+                android:padding="5dp"
+                android:textColor="@color/white"/>
+            <Space
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btnChuyenlistSV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Danh sách Sinh viên"
+                android:padding="5dp"
+                android:background="#5E3587"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7E909F"
+    android:stretchColumns="*">
+    <TableRow>
+        <TextView
+            android:id="@+id/ttMaSv"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="@drawable/edittext"
+            android:textColor="@color/lightgrey"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/ttEmailSv"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="@drawable/edittext"
+            android:textColor="@color/lightgrey"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/ttHoSv"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="@drawable/edittext"
+            android:textColor="@color/lightgrey"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/ttTenSv"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="@drawable/edittext"
+            android:textColor="@color/lightgrey"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/ttgioitinhSv"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="@drawable/edittext"
+            android:textColor="@color/lightgrey"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/ttMaLopSv"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="@drawable/edittext"
+            android:textColor="@color/lightgrey"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/ttKhoaSv"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="@drawable/edittext"
+            android:textColor="@color/lightgrey"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/ttTenKhoaSv"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:background="@drawable/edittext"
+            android:textColor="@color/lightgrey"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnEditSv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/borderbtn"
+            android:text="Edit" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btnDeleteSv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/borderbtn"
+            android:text="Delete" />
+    </TableRow>
+</TableLayout>
