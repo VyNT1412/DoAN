@@ -1,5 +1,8 @@
 # DoAn
 #Tên đồ án Quản lí sinh viên
+#Mật khẩu và Email để xem cơ sở dữ liệu Firebase
+doanqlsv2324@gmail.com
+mật khẩu: doannganh123
 #Mô tả dự án
    Đây là app Android sử dụng ngôn ngữ Java dùng để quản lí sinh viên đơn giản với 3 cấp người dùng là Admin, Giảng viên và Sinh Viên
 #Cách cài đặt và chạy dự án
