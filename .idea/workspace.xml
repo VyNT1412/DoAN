@@ -10,17 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f002eeb9-e3e7-491b-a6bd-efeaf4a99378" name="Changes" comment="DO AN">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/doanqlsv/Fragment/Edit_TT_GVFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/doanqlsv/Fragment/Edit_TT_GVFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/doanqlsv/Fragment/Edit_TT_SV_Fragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/doanqlsv/Fragment/Edit_TT_SV_Fragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/doanqlsv/Fragment/InforAdmin_Fragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/doanqlsv/Fragment/InforAdmin_Fragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/doanqlsv/Fragment/InforGiangVien_Fragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/doanqlsv/Fragment/InforGiangVien_Fragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/doanqlsv/Fragment/InforSinhVien_Fragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/doanqlsv/Fragment/InforSinhVien_Fragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edit__sv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edit__sv.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edit__tt__gv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edit__tt__gv.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_infor_admin_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_infor_admin_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_infor_giang_vien_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_infor_giang_vien_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_infor_sinh_vien_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_infor_sinh_vien_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/doanqlsv/Adapter/SinhVienAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/doanqlsv/Adapter/SinhVienAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +104,7 @@
     "android-custom-viewC:/Users/ADMIN/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0-rc01/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-rc01-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED": "RecyclerView",
     "android-custom-viewC:/Users/ADMIN/AppData/Local/Android/Sdk/sources/android-33/android/widget/Spinner.java_SELECTED": "Spinner",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/LapTrinhCSDL/DoAnQLSV",
+    "last_opened_file_path": "C:/GITBUB/test/DoAn",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",

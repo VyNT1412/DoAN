@@ -1,6 +1,7 @@
 package com.example.doanqlsv.Adapter;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -9,8 +10,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -18,8 +21,13 @@ import com.example.doanqlsv.Fragment.Edit_TT_GVFragment;
 import com.example.doanqlsv.Fragment.Edit_TT_SV_Fragment;
 import com.example.doanqlsv.Model.SinhVien;
 import com.example.doanqlsv.R;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
@@ -82,7 +90,38 @@ public class SinhVienAdapter  extends RecyclerView.Adapter<SinhVienAdapter.SinhV
 
             }
         });
-
+        holder.deletesv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder b = new AlertDialog.Builder(v.getContext());
+                b.setTitle("Xóa giảng viên").setMessage("Bạn chắc chắn muốn xóa?").setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        referenceSV.whereEqualTo("emailSV",item.getEmailSV()).get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if(task.isSuccessful())
+                                {
+                                    DocumentSnapshot documentSnapshot = task.getResult().getDocuments().get(0);
+                                    String id = documentSnapshot.getId();
+                                    referenceSV.document(id).delete().addOnSuccessListener(new OnSuccessListener<Void>() {
+                                        @Override
+                                        public void onSuccess(Void unused) {
+                                            Toast.makeText(context, "Xóa thành công", Toast.LENGTH_SHORT).show();
+                                        }
+                                    });
+                                }
+                            }
+                        });
+                    }
+                }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        b.setCancelable(true);
+                    }
+                }).show();
+            }
+        });
     }
 
     @Override
