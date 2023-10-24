@@ -89,7 +89,7 @@ public class Danh_Sach_Diem_Fragment extends Fragment {
                     public void onComplete(@NonNull Task<QuerySnapshot> task) {
                         if (task.getResult().isEmpty())
                         {
-                            Toast.makeText(getContext(), "Hoc ki này điểm chưa có hoặc chưa kết thúc" , Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getContext(), "Học kì này điểm chưa có hoặc chưa kết thúc" , Toast.LENGTH_SHORT).show();
                             return;
                         }
                         if(task.isSuccessful())
