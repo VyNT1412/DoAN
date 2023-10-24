@@ -94,7 +94,7 @@ public class SinhVienAdapter  extends RecyclerView.Adapter<SinhVienAdapter.SinhV
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder b = new AlertDialog.Builder(v.getContext());
-                b.setTitle("Xóa giảng viên").setMessage("Bạn chắc chắn muốn xóa?").setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                b.setTitle("Xóa sinh viên").setMessage("Bạn chắc chắn muốn xóa?").setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         referenceSV.whereEqualTo("emailSV",item.getEmailSV()).get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
