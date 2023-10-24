@@ -18,11 +18,8 @@
   
       + Cách cài đặc máy ảo:
          Bước 1: Vào Android Studio chọn Device Manager bên hông tay phải và chọn "Create device"
-          ![image](https://github.com/VyNT1412/DoAn/assets/115887999/aeef5f46-141b-4f77-a6f8-2397e3a486ba)
 
          Bước 2: Lựa chọn điện thoại muốn làm máy ảo, nhấn next sau đó chọn API 33 để cài đặt rồi nhấn "Finish"
-      	
-          ![image](https://github.com/VyNT1412/DoAn/assets/115887999/6d43e6b7-edc9-4bf4-9b13-5028d96fbe5d)
 
 #Tải dự án từ Github 
 
