@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -27,6 +28,7 @@ public class InforGiangVien_Fragment extends Fragment {
     private MainActivity_GiangVien mainActivity_giangvien;
     FirebaseFirestore firestore = FirebaseFirestore.getInstance();
     public final CollectionReference referenceSV = firestore.collection("Khoa");
+    ImageView anh;
     TextView mEmailGv, mChucDanh, mHocVi, mKhoa, mHoTenGv;
     GiangVien gv;
     @Override
@@ -41,6 +43,16 @@ public class InforGiangVien_Fragment extends Fragment {
         mHocVi.setText(gv.getHocVi());
         mChucDanh.setText(gv.getChucDanh());
         mHoTenGv.setText(gv.getHoGV()+" "+gv.getTenGV());
+        String n = gv.getGioiTinhGV();
+        if (gv != null) {
+            if ("Nam".equalsIgnoreCase(gv.getGioiTinhGV())) {
+                // Set the male avatar image
+                anh.setImageResource(R.drawable.man_ava);
+            } else if ("Nữ".equalsIgnoreCase(gv.getGioiTinhGV())) {
+                // Set the female avatar image
+                anh.setImageResource(R.drawable.woman_ava);
+            }
+        }
         referenceSV.whereEqualTo("maKhoa",gv.getMaKhoa()).get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override
             public void onComplete(@NonNull Task<QuerySnapshot> task) {
@@ -61,5 +73,6 @@ public class InforGiangVien_Fragment extends Fragment {
         mHoTenGv = view.findViewById(R.id.htgv);
         mHocVi = view.findViewById(R.id.hvgv);
         mKhoa = view.findViewById(R.id.khoa);
+        anh = view.findViewById(R.id.Sphoto1);
     }
 }

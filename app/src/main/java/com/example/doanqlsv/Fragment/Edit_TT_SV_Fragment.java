@@ -66,7 +66,6 @@ public class Edit_TT_SV_Fragment extends Fragment {
         backmain=view.findViewById(R.id.btnBackDs);
         spnkhoa=view.findViewById(R.id.spnmakhoa);
         spnlop=view.findViewById(R.id.spnmalop);
-        imggt=view.findViewById(R.id.imageViewGTSV);
 
         //
 

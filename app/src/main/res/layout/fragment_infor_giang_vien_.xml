@@ -33,9 +33,10 @@
             app:cardCornerRadius="16dp"
             app:cardElevation="2dp">>
             <ImageView
+
                 android:layout_width="135dp"
                 android:layout_height="135dp"
-                android:id="@+id/Sphoto"/>
+                android:id="@+id/Sphoto1"/>
         </androidx.cardview.widget.CardView>
         <Space
             android:layout_width="match_parent"

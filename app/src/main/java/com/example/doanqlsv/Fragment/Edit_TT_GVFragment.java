@@ -64,7 +64,6 @@ public class Edit_TT_GVFragment extends Fragment {
         txtkhoa=(TextView) view.findViewById(R.id.ttkhoa);
         hoten=(TextView) view.findViewById(R.id.tthoten);
         gioitinh=(TextView) view.findViewById(R.id.ttgioitinh);
-        img =(ImageView) view.findViewById(R.id.imageView);
         //
 
         //
@@ -106,6 +105,7 @@ public class Edit_TT_GVFragment extends Fragment {
             txtkhoa.setText(s.getMaKhoa());
             txtHocVi.setText(s.getHocVi());
             hoten.setText(s.getHoGV()+" "+s.getTenGV());
+
             referenceGV.whereEqualTo("emailGV",s.getEmailGV()).get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                 @Override
                 public void onSuccess(QuerySnapshot queryDocumentSnapshots) {

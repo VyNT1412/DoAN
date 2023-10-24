@@ -39,7 +39,7 @@
         <ImageView
             android:layout_width="135dp"
             android:layout_height="135dp"
-            android:id="@+id/Sphoto"/>
+            android:id="@+id/Sphoto1"/>
     </androidx.cardview.widget.CardView>
 
         <LinearLayout

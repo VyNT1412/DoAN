@@ -79,7 +79,7 @@ public class InforSinhVien_Fragment extends Fragment {
         ns=(TextView) view.findViewById(R.id.ns);
         mssv=(TextView) view.findViewById(R.id.massv);
         email=(TextView) view.findViewById(R.id.emailsv);
-        Sphoto = view.findViewById(R.id.Sphoto);
+        Sphoto = view.findViewById(R.id.Sphoto1);
 
     }
 }
