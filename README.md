@@ -1,4 +1,4 @@
-# DoAn Quản lí Sinh viên sửa dụng Android Studio ngôn ngữ Java 
+# Đồ án Quản lí Sinh viên sửa dụng Android Studio ngôn ngữ Java và sử dụng Firebase
 Đây là dự án phát triển ứng dụng dùng để quản lí sinh viên đơn giản với 3 cấp người dùng là Admin, Giảng viên và Sinh Viên 
 
 #Cách cài đặt và chạy dự án
@@ -24,3 +24,7 @@
 #Tải dự án từ Github 
 
   git clone https://github.com/VyNT1412/DoAn.git
+
+#Link xem dữ liệu Firebase
+
+https://console.firebase.google.com/project/doannganh23-24/firestore/data/~2FDiem~2F01AD1MQ4JdH7sU9SBmLE
